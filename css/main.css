@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('Quicksand-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('Quicksand-Regular.otf');
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	background-color:#e3e0d7;
+	font-family: 'Quicksand-Bold';
+}
+	
+body {
+	text-align:center;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	font-size:	2.250em;
+	letter-spacing: -0.045em;
+	margin-bottom: 0.3em;
+}
+
+h2 {
+	font-size:	1.1em;
+	letter-spacing: -0.022em;
+	margin: 0;
+	margin-bottom:2.9em;
+}
+
+h3 {
+	font-size:	1.875em;
+	letter-spacing: -0.045em;
+	margin-bottom: 0.2em;
+	margin-top: -0.3em;
+}
+
+h4 {
+	font-family: 'Quicksand-Regular';
+	font-size: 0.875em;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: color 0.5s;
+}
+
+#container {
+	width:100%;
+	height:100%;
+	max-width: 1000px;
+	display: inline-block;
+	text-align: left;
+}
+
+#top {
+	margin-top: 60px;
+	margin-bottom: 66px;
+}
+
+#top h1 {
+	font-size:50px;	
+}
+
+#sideMenu {
+	max-width: 300px;
+	float: left;
+	width: 100%;
+	margin-right: 32px;
+}
+
+#latest {
+	
+}
+
+#tags {
+	
+}
+
+#banners {
+	
+}
+
+#sideMenu h2 {
+	font-size: 24px;
+}
+
+#content {
+	max-width: 666px;
+	float: left;
+	width: 100%;
+}
+
+#fcontainer{
+	width: 100%;
+	background-color:#000;
+}
+
+#footer {
+	color:#FFF;
+	width: 100%;
+	max-width: 1000px;
+	height: 155px;
+	display: inline-block;
+}
