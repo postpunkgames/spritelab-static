@@ -14,12 +14,17 @@ html body {
 	border: 0;
 	font: inherit;
 	vertical-align: baseline;
-	background-color:#e3e0d7;
+	
 	font-family: 'Quicksand-Bold';
+}
+
+html {
+	background-color:#000;
 }
 	
 body {
 	text-align:center;
+	background-color:#e3e0d7;
 }
 
 h1 {
@@ -34,7 +39,7 @@ h2 {
 	font-size:	1.1em;
 	letter-spacing: -0.022em;
 	margin: 0;
-	margin-bottom:2.9em;
+	
 }
 
 h3 {
@@ -62,6 +67,7 @@ a {
 	max-width: 1000px;
 	display: inline-block;
 	text-align: left;
+	background-color:#e3e0d7;
 }
 
 #top {
@@ -71,6 +77,7 @@ a {
 
 #top h1 {
 	font-size:50px;	
+	text-transform: uppercase;
 }
 
 #sideMenu {
@@ -80,26 +87,168 @@ a {
 	margin-right: 32px;
 }
 
-#latest {
-	
+#latest, #tags, #banners {
+	padding-bottom: 60px;
+}
+
+#tutoMenu {
+	list-style-type: none;	
+	padding-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+		text-transform: uppercase;
+}
+
+#tutoMenu p{
+	font-family: 'Quicksand-Regular';
+	margin: 0;
+}
+
+#tutoMenu li{
+	padding-top: 24px;
 }
 
 #tags {
 	
 }
 
-#banners {
+#tagList {
+	list-style-type: none;	
+	padding-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+#tagList li{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#tagList li a{
+	font-size: 13px;
+	color:#FFF;	
 	
+}
+
+#gameart, #code, #java, #libgdx {
+	padding: 2px 8px 4px 8px;
+	border-radius: 4px;
+}
+
+#code {
+	background-color:#06F;	
+	
+}
+
+#libgdx {
+	background-color:#b80000;
+}
+
+#java {
+	background-color:#5ea000;
+}
+
+#gameart {
+	background-color:#ce4018;
+}
+
+#banners {
+	padding-top: 20px;
+}
+
+#banners img{
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #sideMenu h2 {
 	font-size: 24px;
+	text-transform: uppercase;
 }
 
 #content {
 	max-width: 666px;
 	float: left;
 	width: 100%;
+}
+
+#content h1 {
+	margin: 0;	
+}
+
+#content h2 {
+	font-family: 'Quicksand-Regular';
+	font-size: 14px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+#content p {
+	font-family: 'Quicksand-Regular';
+	line-height: 20px;
+	font-size: 15px;
+	letter-spacing: -1px;
+}
+
+#content a img {
+	padding-top: 15px;	
+	padding-bottom: 1px;
+}
+
+#navi {
+	padding-top: 30px;
+	padding-bottom:	70px;
+}
+
+#nav {
+	float:left;
+}
+
+#nav a {
+	font-size: 19px;	
+}
+
+#prev {
+	float:left;	
+}
+
+#prev img {
+	padding-right: 10px;
+	position:relative;
+	bottom:3px;
+}
+
+#next img {
+	padding-left: 10px;
+	position:relative;
+	bottom:3px;
+}
+
+#next {
+	float: left;
+}
+
+#sep {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	position:relative;
+	top:3px;
+}
+
+#social {
+	float:right;
+}
+
+#social svg {
+	padding-left:10px;	
+}
+
+#comments {
+	padding-bottom: 42px;	
 }
 
 #fcontainer{
