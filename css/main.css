@@ -194,7 +194,7 @@ a {
 }
 
 #content a img {
-	padding-top: 15px;	
+	padding-top: 1px;	
 	padding-bottom: 1px;
 }
 
@@ -257,9 +257,150 @@ a {
 }
 
 #footer {
+	padding-top: 28px;
 	color:#FFF;
 	width: 100%;
 	max-width: 1000px;
 	height: 155px;
 	display: inline-block;
+}
+
+#fleft {
+	float: left;
+	max-width: 500px;
+	text-align: left;
+}
+
+#fleft h3 {
+	font-size: 12px;
+	line-height: 16px;
+	padding-bottom: 10px;
+}
+
+#fright {
+	float: right;
+}
+
+input[type=email], input[type=email]:focus{
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding:0;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+	width: 25.750em;
+	padding-top: 1.25em;
+	padding-bottom: 1.00em;
+	background: #000;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.2em;
+	color: #FFF;
+	margin:0;
+	outline: none;
+}
+
+#mc-embedded-subscribe{
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding:0;
+	font-size: 0.90em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.15em;
+	text-decoration: none;
+	color: #fff;
+	background:#000;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	outline: none;
+	-webkit-transition: color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+#mc-embedded-subscribe:hover{
+	cursor:pointer;	
+	color:#000;
+	background-color:#FFF;
+}
+
+#sbutton{
+	font-family: 'Quicksand-Bold';
+	margin: 0;
+	padding:0;
+	font-size: 0.90em;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0.15em;
+	text-decoration: none;
+	color: #fff;
+	background:#000;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	outline: none;
+	-webkit-transition: color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+#sbutton:hover{
+	cursor:pointer;	
+	color:#000;
+	background-color:#FFF;
+}
+
+#fmenu ul {
+	list-style: none;
+	padding: 0.25em 0.73em 0.25em 0.73em;
+	margin: 0;
+}
+
+#fmenu ul li {
+	display: inline;
+}
+
+#fmenu {
+	float: right;
+	font-size: 16px;
+	letter-spacing: -0.035em;
+	border-style: solid;
+	border-color: #000;
+	cursor:default;	
+	-webkit-transition: background-color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+#fmenu:hover {
+	background-color: #000;
+	color:#55524a;
+}
+
+#fmenu:hover a{
+	color:#55524a;
+}
+
+#fmenu a:hover{
+	color: #fff;
+}
+
+#link p{
+	margin-top: 10px;
+}
+
+#link a{
+	font-size: 15px;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+
+#fsocial {
+	float:right;
+	margin-bottom: 10px;
+}
+
+#fsocial svg{
+	margin-left: 10px;
+}
+
+#link {
+	margin-top: 10px;
 }
