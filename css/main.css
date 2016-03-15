@@ -33,6 +33,7 @@ h1 {
 	font-size:	2.250em;
 	letter-spacing: -0.045em;
 	margin-bottom: 0.3em;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -173,6 +174,7 @@ a {
 	max-width: 666px;
 	float: left;
 	width: 100%;
+	padding-bottom: 150px;
 }
 
 #content h1 {
@@ -398,8 +400,6 @@ input[type=email], input[type=email]:focus{
 	margin-left: 10px;
 }
 
-
-
 #link {
 	text-align: right;
 	margin-top: 10px;
@@ -415,3 +415,56 @@ input[type=email], input[type=email]:focus{
 	text-transform: uppercase;
 	margin-top: 25px;
 }
+
+
+/* post list */
+
+#post {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color: #b8ac94;
+	float:left;
+	width: 100%;
+}
+
+#post #tagList {
+	display:inline-block;
+	position:relative;
+	bottom:3px;
+}
+
+#post  h1 {
+	font-size: 25px;
+	display: inline-block;
+
+}
+
+#post h2 {
+	font-size: 12px;
+	padding-top:2px;
+	padding-bottom:20px;
+	color: #8b8b8b;
+}
+
+#post #prev{
+	float:left;
+	padding-left:25px;
+	max-width: 350px;
+	padding-bottom: 50px;
+	
+}
+
+#post img {
+	float:left;
+
+}
+
+#post p{
+		margin-top: 0;
+}
+
+
+
+
